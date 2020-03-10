@@ -10,10 +10,17 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-
+/**
+ * 
+ * This page object class is created to perform registration 
+ * of the page.
+ * 
+ * @author qa
+ *
+ */
 public class RegisterPatientPage {
 	
-	  private final WebDriver driver;
+	private final WebDriver driver;
 	
 	public RegisterPatientPage(WebDriver driver)
 	{
