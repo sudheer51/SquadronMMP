@@ -26,7 +26,7 @@ public class Utility {
 		    driver.findElement(By.id("uh-search-box")).sendKeys(searchText);
 		    WebDriverWait wait = new WebDriverWait(driver,10);
 		    List<WebElement> searchList =wait.until(ExpectedConditions.
-	              visibilityOfAllElementsLocatedBy(By.xpath("//ul[@role='listbox']/li/span")));
+	              visibilityOfAllElementsLocatedBy(By.id("//ul[@role='listbox']/li/span")));
 		    return searchList;
 	}
 	public boolean selectRequiredSearchPattern(String searchPattern,String searchText)
