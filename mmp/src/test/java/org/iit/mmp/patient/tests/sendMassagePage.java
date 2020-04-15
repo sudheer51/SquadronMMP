@@ -10,7 +10,7 @@
 	import java.util.concurrent.TimeUnit;
 
 	import org.openqa.selenium.Alert;
-/*patient sending massage to Doctor*/    
+/*patient sending massage to Doctor changed one*/    
 	public class sendMassagePage {
 		
 		
