@@ -112,7 +112,7 @@ public class RegisterPatientPage {
 			ssnTxtField.sendKeys(""+ssnValue);
 			hMap.put("ssn", ssnTxtField.getAttribute(("value")));
 			ssnTxtField.click();
-			
+			// comment
 				
 			driver.findElement(By.name("register")).click();
 			
