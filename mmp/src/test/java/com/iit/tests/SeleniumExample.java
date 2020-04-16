@@ -12,7 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class SeleniumExample {
 	WebDriver driver;
-	
+	/* looking forward the test steps*/
 	 
 	@Test
 	public void validateSearchResults()
