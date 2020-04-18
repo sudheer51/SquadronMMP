@@ -12,7 +12,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 public class RegisterPatientPage {
-	
+	// this is a comment for testing
 	  private final WebDriver driver;
 	
 	public RegisterPatientPage(WebDriver driver)
